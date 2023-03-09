@@ -1,0 +1,38 @@
+::selection {
+  background-color: #6fecc3;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6fecc3;
+  padding: 10px;
+}
+
+.fav-logo__title {
+  display: flex;
+  gap: 5%;
+}
+
+#fav-logo {
+  height: 35px;
+  width: 35px;
+}
+
+#first-title {
+  color: #ffffff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+#search-box {
+  padding: 10px;
+  border-right: none;
+}
+
+#search-btn {
+  padding: 10px;
+  border-left: none;
+  cursor: pointer;
+}
