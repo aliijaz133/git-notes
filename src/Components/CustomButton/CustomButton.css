@@ -1,0 +1,9 @@
+.ant-btn-primary {
+  background: lightseagreen;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.ant-btn-primary:hover {
+  background: seagreen;
+}

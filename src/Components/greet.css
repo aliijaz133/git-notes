@@ -90,6 +90,17 @@
 
 #input-field {
   padding: 10px;
+  color: #46c79c;
+  border-radius: 10px;
+  border: 2px dashed #46c79c;
+}
+
+#input-field::placeholder {
+  color: #46c79c;
+}
+
+#input-field:hover {
+  border: 2px dashed #1a95bb;
 }
 
 #label-name__login {
