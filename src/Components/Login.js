@@ -1,6 +1,12 @@
+import { Button } from "antd";
+import CustomButton from "./CustomButton/CustomButton";
+
 const Login = () => {
+  const loginHandler = () => {
+    console.log("Click");
+  };
   return (
-    <div class="login-form__visibilty">
+    <div className="login-form__visibilty">
       <form name="git-form">
         <div id="login-form">
           <label id="label-name__login">UserName:</label>
@@ -22,7 +28,10 @@ const Login = () => {
             required
           ></input>
         </div>
-        <button id="login-btn__gists">Login</button>
+        {/* <button id="login-btn__gists" onClick={loginHandler}>
+          Login
+        </button> */}
+        <CustomButton title={"login"} onClick={loginHandler} />
       </form>
     </div>
   );
