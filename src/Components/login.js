@@ -1,4 +1,4 @@
-const login = () => {
+const Login = () => {
   return (
     <div>
       <form name="git-form">
