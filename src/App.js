@@ -1,5 +1,5 @@
 import "./App.css";
-import Greet from "./Components/Greet";
+import Header from "./Components/Header";
 import "./Components/greet.css";
 import Make from "./Components/Make";
 import Login from "./Components/Login";
@@ -7,7 +7,7 @@ import Login from "./Components/Login";
 function App() {
   return (
     <div className="App">
-      <Greet />
+      <Header />
       <Login />
       <Make />
     </div>

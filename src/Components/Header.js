@@ -1,4 +1,4 @@
-function Greet() {
+function Header() {
   return (
     <div class="header">
       <div class="fav-logo__title">
@@ -26,4 +26,4 @@ function Greet() {
   );
 }
 
-export default Greet;
+export default Header;

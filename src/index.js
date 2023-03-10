@@ -11,10 +11,4 @@ root.render(
   </React.StrictMode>
 );
 
-const demo = ReactDOM.createRoot(document.getElementById("demo"));
-demo.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 reportWebVitals();
