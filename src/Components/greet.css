@@ -149,4 +149,13 @@
     row-gap: 15%;
     margin-bottom: 50px;
   }
+
+  #search-box {
+    max-width: 150px;
+  }
+
+  #label-name__login,
+  #input-field {
+    width: 250px;
+  }
 }

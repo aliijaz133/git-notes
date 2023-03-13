@@ -1,4 +1,4 @@
-import { Button, Input, QRCode, Space } from "antd";
+import { Button, Input } from "antd";
 import CustomButton from "./CustomButton/CustomButton";
 
 const Login = () => {
