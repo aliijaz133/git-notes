@@ -159,6 +159,10 @@
   #input-field {
     width: 250px;
   }
+
+  #login-btn {
+    visibility: hidden;
+  }
 }
 
 body {
