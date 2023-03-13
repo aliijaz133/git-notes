@@ -106,6 +106,8 @@
 #label-name__login {
   font-size: 1rem;
   align-self: center;
+  color: #ffffff;
+  text-shadow: 1px 2px 5px #1a95bb;
 }
 
 #login-btn__gists {
@@ -158,4 +160,10 @@
   #input-field {
     width: 250px;
   }
+}
+
+body {
+  background-image: url(.././Mipmap/Background/background_Img1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
