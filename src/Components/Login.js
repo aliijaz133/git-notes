@@ -10,19 +10,19 @@ const Login = () => {
     <div className="login-form__visibilty">
       <form name="gitForm">
         <div id="login-form">
-          <label id="label-name__login">UserName:</label>
+          <label id="label-name">UserName:</label>
           <input
             type="text"
-            placeholder="Enter User Name OR Email"
+            placeholder="📧 Enter Email"
             autoComplete="off"
             name="userName"
             id="input-field"
             required
           ></input>
-          <label id="label-name__login">Password: </label>
+          <label id="label-name">Password: </label>
           <input
             type="password"
-            placeholder="Enter Password"
+            placeholder="🔒 Enter Password"
             autoComplete="off"
             name="userPwd"
             id="input-field"

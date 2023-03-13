@@ -104,9 +104,15 @@
   border: 2px dashed #1a95bb;
 }
 
-#label-name__login {
+#label-name {
   font-size: 1rem;
   align-self: center;
+  cursor: pointer;
+}
+
+#label-name:hover {
+  text-decoration: 2px underline rgb(11, 179, 201);
+  font-style: italic;
 }
 
 #login-btn__gists {
@@ -155,7 +161,7 @@
     max-width: 150px;
   }
 
-  #label-name__login,
+  #label-name,
   #input-field {
     width: 250px;
   }
