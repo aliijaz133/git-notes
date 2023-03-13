@@ -2,16 +2,8 @@ import { Button, Input } from "antd";
 import CustomButton from "./CustomButton/CustomButton";
 
 const Login = () => {
-  const getText = document.forms["gitForm"]["userName"].value;
-  const getPwd = document.forms["gitForm"]["userName"].value;
   const loginHandler = () => {
-    if (getText == "" || getPwd == "") {
-      alert("This field is required.");
-      return false;
-    } else {
-      alert("Succesfully loggedin.");
-      return true;
-    }
+    console.log("click");
   };
 
   return (
