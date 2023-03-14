@@ -2,7 +2,7 @@ import React from "react";
 
 const CreateGist = () => {
   const createGistFile = () => {
-    console.log("Create Gist Account.");
+    console.log("Hello");
   };
   return (
     <div className="create-gist">
@@ -41,6 +41,7 @@ const CreateGist = () => {
           Create Gist
         </button>
       </form>
+      <p id="demo"></p>
     </div>
   );
 };

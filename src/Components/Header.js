@@ -1,6 +1,10 @@
+import { DatePicker } from "antd";
 import image from "./../assets/images/emumbaLogo.png";
 
 function Header() {
+  const searchUser = () => {
+    console.log("Search User");
+  };
   return (
     <div className="header">
       <div className="fav-logo__title">
@@ -8,7 +12,7 @@ function Header() {
         <h1 id="first-title">MUMBA</h1>
       </div>
       <div className="search-box__login">
-        <form action="https://gist.github.com/" method="GET">
+        <form>
           <div className="search-form__btn">
             <input
               type="search"
@@ -17,13 +21,14 @@ function Header() {
               autoComplete="off"
               required
             ></input>
-            <button id="search-btn">
+            <button id="search-btn" onClick={searchUser}>
               <li className="fa fa-search"></li>
             </button>
           </div>
         </form>
         <button id="login-btn">Login</button>
       </div>
+      <p id="showText"></p>
     </div>
   );
 }
