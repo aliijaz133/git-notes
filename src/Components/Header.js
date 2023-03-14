@@ -5,7 +5,7 @@ function Header() {
     <div className="header">
       <div className="fav-logo__title">
         <img src={image} alt="Image not preview" id="fav-logo" />
-        <h1 id="first-title">Emumba</h1>
+        <h1 id="first-title">MUMBA</h1>
       </div>
       <div className="search-box__login">
         <form action="https://gist.github.com/" method="GET">

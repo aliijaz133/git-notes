@@ -9,11 +9,12 @@
   align-items: center;
   background-color: #46c79c;
   padding: 10px;
+  box-shadow: 1px 1px 10px 0.5px gray;
 }
 
 .fav-logo__title {
   display: flex;
-  gap: 5%;
+  gap: 2%;
 }
 
 #fav-logo {
@@ -23,8 +24,11 @@
 
 #first-title {
   color: #ffffff;
-  font-size: 2rem;
-  letter-spacing: 2px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-top: -5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .search-form__btn {
@@ -169,10 +173,4 @@
   #login-btn {
     visibility: hidden;
   }
-}
-
-body {
-  background-image: url(.././Mipmap/Background/background_Img1.jpg);
-  background-size: cover;
-  background-attachment: fixed;
 }
